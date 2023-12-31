@@ -1,0 +1,76 @@
+.b2{
+    /* background-color: bisque; */
+    /* background-image: linear-gradient(pink,lightblue); */
+    /* background-image: url(./images/ai-generated-8157828_1280.jpg); */
+    background-image: url(https://img.freepik.com/premium-vector/geometric-gradient-technology-background_23-2149110132.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703980800&semt=ais);
+    background-size: cover;
+}
+.frm1{
+    /* background-image: linear-gradient(yellow,green); */
+    
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 350px;
+    padding: 50px;
+    border: solid ;
+    border-radius: 15px;
+    box-shadow: 10px;
+    backdrop-filter: blur(15px);
+    background: rgba(255,255,255,0.2);
+}
+#exampleInputEmail1{
+    background: transparent;
+}
+.b3{
+    width: 100%;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.logo{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    color: brown;
+}
+.head1{
+    margin-top: 35px;
+    font-size: 30px;
+    /* font-family: 'Sevillana', cursive; */
+    font-weight: 800;
+    font-family: 'Bebas Neue', sans-serif;
+    color: red;
+}
+@media screen and (max-width:580px) {
+    .frm1{
+        width: 90%;
+        margin-left: 15px;
+    }
+}
+.a1{
+    transform: fade;
+    transition: 2s;
+}
+@keyframes fade {
+    0%{
+        /* filter:opacity(100%) ; */
+        opacity: 1;
+    }
+    25%{
+        /* filter:opacity(75%) ; */
+        opacity: 0;
+    }
+    50%{
+        /* filter:opacity(50%) ; */
+        opacity: 1;
+    }
+    75%{
+        /* filter:opacity(25%) ; */
+        opacity: 0;
+
+    }
+    100%{
+        /* filter:opacity(0%) ; */
+        opacity: 1;
+
+    }
+    
+}
